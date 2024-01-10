@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(138, 202, 211);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.txt p{
+    margin-top: -15px;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange, 0 0 70px orange;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green, 0 0 80px green;
+  }
+}
+
+.orangee{
+    width: 50%;
+    height: 10rem;
+    background-color: orange;
+}
+
+.whitee{
+    width: 50%;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitee img{
+    width: 10rem;
+}
+
+
+.greenn{
+    width: 50%;
+    height: 10rem;
+    background-color: green;
+}
+
+.happy{
+    color: orange;
+}
+
+.republic{
+    color: white;
+}
+
+.day{
+    color: green;
+}
